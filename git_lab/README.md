@@ -9,8 +9,6 @@
 
 `git remote add origin <caminho do repositorio>` Vincula com o github    
 
-`git push -u origin main` Publica no repositorio
-
 # Comandos basicos
 ---
 `git init` para definir a pasta como repositorio git
@@ -49,10 +47,14 @@
 
 `git reset --hard <hash>` **EVITAR AO MAXIMO**, pois ele retorna a um ponto anterior do commit e deleta sem recuperação os commits posteriores a ele
 
----
-#### Publicaçao
+#### Publicaçao e Atualização do repositorio local
 
-`git push --set-upstream origin feature-2` Faz a publicação criando a feature
+`git push -u origin <branch para o qual fara o push>` Publica no repositorio
+
+`git push --set-upstream origin feature-2` Faz a publicação 
+na a feature-2 (caso nao exista ele cria)
+> `-u` == `--set-upstream`
 
 `git push origin --all` Faz publicaçao de todas as branchs
 
+`git pull `
