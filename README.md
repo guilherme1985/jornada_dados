@@ -9,7 +9,7 @@ Cria um repositorio git
 `git branch -M main`    
 Define main com a branch defealt    
 
-`git remote add origin git@github.com:guilherme1985/jornada_dados.git`  
+`git remote add origin <repositorio do git>`  
 Vincula com o github    
 
 `git push -u origin main`   
