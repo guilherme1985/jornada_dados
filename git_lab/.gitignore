@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# VS Code
+.vscode/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# SQL
+*.sqlite3
+*.db
+
+# Office/Docs
+#*.doc
+#*.docx
+#*.pdf
+
+# YAML
+#*.yaml
+#*.yml
+
+# Misc
+*.swp
+*.bak
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
